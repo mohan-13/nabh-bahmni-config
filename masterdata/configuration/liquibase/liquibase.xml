@@ -332,7 +332,7 @@
                 SELECT c.concept_id
                 FROM concept c
                 JOIN concept_name cn ON c.concept_id = cn.concept_id
-                WHERE cn.name IN ('Tablet', 'Capsule', 'ml', 'mg', 'Drop', 'Tablespoon', 'Teaspoon', 'Unit(s)')
+                WHERE cn.name IN ('Tablet', 'Capsule', 'ml', 'mg', 'Drop', 'IU', 'Tablespoon', 'Teaspoon', 'Unit(s)')
                 AND cn.concept_name_type = 'FULLY_SPECIFIED'
             ) t ON c.concept_id = t.concept_id
             SET c.retired = TRUE
