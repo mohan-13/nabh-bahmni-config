@@ -5,7 +5,6 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:f
 4f8c4867-c4a8-411e-8983-f694d6a1b66b,,,Nuclear medicine,,Nuclear medicine,,,,Procedure,N/A,,,,,,,,,,,
 5d3e948a-311a-48e5-b45e-fa0dcd158056,,,Magnetic Resonance Imaging,,MRI,,,,Procedure,N/A,,,,,,,,,,,
 4573be0e-1370-4c36-b932-ac320ebd5c00,,,CT Scan,,CT Scan,,,,Procedure,N/A,,,,,,,,,,,
-f63ea967-9e53-4e65-a7ce-db19e52da313,,,Fluoroscopy,,Fluoroscopy,,,,Procedure,N/A,,,,,,,,,,,
 26b938d8-2cd4-44a3-b667-eb46b6aa0b7b,,,Ultrasound,,Ultrasound,,,,Procedure,N/A,,,,,,,,,,,
 0301d44d-e4e9-4c73-9e54-d59d02a59353,,,Echo,,Echo,,,,Procedure,N/A,,,,,,,,,,,
 9bb0795c-4ff0-0305-1990-000000000048,,,Radiology Orders,Radiology Orders,,,,,ConvSet,N/A,,,,,,,,,,,
