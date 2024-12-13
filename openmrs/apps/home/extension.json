@@ -139,5 +139,15 @@
     "icon": "fa fa-flask",
     "order": 15,
     "requiredPrivilege": "app:lab-lite"
+  },
+  "ndhmHIU": {
+    "id": "bahmni.ndhm.hiu",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "MODULE_LABEL_NDHMHIU_KEY",
+    "url": "/hiuser",
+    "icon": "fa fa-hospital-o",
+    "order": 16,
+    "requiredPrivilege": "app:abdm"
   }
 }

@@ -18,6 +18,10 @@
             {
                 "id": "org.bahmni.registration.conceptSetGroup.observations",
                 "description": "Registration Second Page Forms"
+            },
+            {
+            "id": "org.bahmni.registration.identifier",
+            "description": "NDHM HealthID Verification"
             }
         ],
         "contextModel": [
@@ -108,7 +112,7 @@
                 "familyName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "The last name should contain only alphabets without space."},
                 "givenName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "The first name should contain only alphabets without space."},
                 "middleName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "The Middle name should contain only alphabets without space."},
-                "address1":{"pattern":"^[a-zA-Z0-9\\s'\\-\\/]{1,}", "errorMessage":"Only Alphanumerics and following special characters are allowed. Special characters - [ '-/]"},
+                "address1":{"pattern":"^[a-zA-Z0-9\\s,'\\-:\\/]{1,}", "errorMessage":"Only Alphanumerics and following special characters are allowed. Special characters - [ '-/]"},
                 "address2":{"pattern":"^[a-zA-Z0-9\\s,'\\-.\\/]{1,}", "errorMessage":"Only Alphanumerics and following special characters are allowed. Special characters - [ ,'-./]"},
                 "cityVillage":{"pattern":"^[a-zA-Z0-9\\s,'\\-.\\/]{2,}", "errorMessage":"Only Alphanumerics and following special characters are allowed. Special characters - [ ,'-./]"}
             },
@@ -122,6 +126,8 @@
             "addressHierarchy": {
                 "showAddressFieldsTopDown": false,
                 "strictAutocompleteFromLevel": "postalCode"
-            }
+            },
+            "readOnlyExtraIdentifiers": ["ABHA Number","ABHA Address"],
+            "mandatoryPersonAttributes" : ["phoneNumber"]
         }
 }

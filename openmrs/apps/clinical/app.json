@@ -74,7 +74,7 @@
             		"caste"
         		],
         		"additionalPatientIdentifiers": [
-           			"National ID"
+           			"National ID", "ABHA Address"
        		],
         		"preferredIdentifier": "Id_Number"
     	},
