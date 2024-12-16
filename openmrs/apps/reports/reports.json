@@ -248,7 +248,24 @@
     "config": {
       "sqlPath": "/etc/bahmni_config/openmrs/apps/reports/sql/odooInvoiceSummary.sql"
     }
-  }
+  },
+  "diagnosisICDLineReportClinicalFindings": {
+        "name": "SNOMED Diagnosis Line Report(ICD) for Clinical Findings",
+        "type": "fhirTSLookupDiagnosisLine",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "tsConceptSource": "SCT",
+            "conceptNameDisplayFormat": "shortNamePreferred",
+            "terminologyParentCode": "404684003",
+            "displayTerminologyCode": "true",
+            "terminologyColumnName": "SNOMED Code",
+            "patientAttributes": [
+            ],
+            "patientAddresses": [
+            ],
+            "extensions": ["org.bahmni.reports.extensions.icd10.Icd10ResultSetExtension"]
+        }
+    }
 }
 
 
